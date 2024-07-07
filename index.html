@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria - Demon Slayer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="background-video" autoplay muted loop>
+        <source src="demonslayer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay">
+        <div class="game-container">
+            <br>
+            <h1>Juego de Memoria - Demon Slayer</h1>
+            <div id="timer">Tiempo restante: 60s</div>
+            <div id="gameBoard" class="game-board"></div>
+        </div>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <span id="closeGameOverModal" class="close-button">&times;</span>
+            <p>Game Over...🤭</p>
+            <img src="images/game_over.gif" alt="Game Over GIF">
+            <div class="buttons-container">
+                <button id="restartGameOver">Reiniciar Juego</button>
+                <button id="closeGameOver">Cerrar Juego</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Winner Modal -->
+    <div id="winnerModal" class="modal">
+        <div class="modal-content">
+            <span id="closeWinnerModal" class="close-button">&times;</span>
+            <p>¡Has Ganado! 👍✅</p>
+            <img src="images/gane.gif" alt="Winner GIF">
+            <div class="buttons-container">
+                <button id="restartWinner">Reiniciar Juego</button>
+                <button id="closeWinner">Cerrar Juego</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
