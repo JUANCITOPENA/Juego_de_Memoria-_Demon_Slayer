@@ -57,11 +57,11 @@ body {
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 0.2fr);
     gap: 10px;
     justify-content: center;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -196,6 +196,16 @@ button:hover {
     h1 { font-size: 28px; }
     p { font-size: 22px; }
     .game-board { gap: 15px; }
+
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 0.1fr);
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    
 }
 
 /* Media queries for desktop */
@@ -203,6 +213,16 @@ button:hover {
     h1 { font-size: 32px; }
     p { font-size: 24px; }
     .game-board { gap: 20px; }
+
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(4, 0.2fr);
+        gap: 10px;
+        justify-content: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    
 }
 
 /* Media query for very small screens */
