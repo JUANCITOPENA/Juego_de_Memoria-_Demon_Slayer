@@ -2,6 +2,8 @@
 
 🎉 ¡Bienvenido al juego de memoria de Demon Slayer! Este es un proyecto interactivo y divertido que te desafiará a encontrar parejas de cartas antes de que se acabe el tiempo. Inspirado en la popular serie de anime Demon Slayer, este juego está diseñado para proporcionar una experiencia inmersiva y emocionante. 🎉
 
+![](demon.jpg)
+
 ## 📝 Descripción del Proyecto 📝
 
 📜 El **Juego de Memoria - Demon Slayer** es un proyecto desarrollado con tecnologías web básicas: HTML, CSS y JavaScript. El juego incluye un temporizador de 60 segundos, un video de fondo que se reproduce automáticamente, y modales que indican si has ganado o perdido. El objetivo del juego es voltear y emparejar todas las cartas antes de que el tiempo se acabe. 📜
