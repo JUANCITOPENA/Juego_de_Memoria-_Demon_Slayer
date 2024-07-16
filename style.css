@@ -32,7 +32,7 @@ body {
 .game-container {
     text-align: center;
     color: white;
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -57,7 +57,7 @@ body {
 
 .game-board {
     display: grid;
-    grid-template-columns: repeat(4, 0.2fr);
+    grid-template-columns: repeat(4, 0.3fr);
     gap: 10px;
     justify-content: center;
     margin-top: 10px;
@@ -95,7 +95,7 @@ p {
     cursor: pointer;
     transition: transform 0.3s;
     overflow: hidden;
-    perspective: 1000px;
+    perspective: 900px;
 }
 
 .card img {
